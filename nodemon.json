@@ -1,0 +1,13 @@
+{
+  "ignore": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "node_modules",
+    "src/exp-angular-app"
+  ],
+  "watch": [
+    "src/exp-react-svc"
+  ],
+  "exec": "tsc -p tsconfig.server.json && node exp-angular-svc/",
+  "ext": "ts"
+}
